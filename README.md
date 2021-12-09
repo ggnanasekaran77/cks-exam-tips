@@ -428,7 +428,7 @@ spec:
     image: busybox:1.33.1
     command: ['sh', '-c', 'while true; do echo writedeny > password.txt; sleep 5; done']
 # Note: annotations, container and apparmor profile to be edited
-# container.apparmor.security.beta.kubernetes.io/<<>>: localhost/<<>>
+# container.apparmor.security.beta.kubernetes.io/<<container name>>: localhost/<<profile name>>
 ```
 </p>
 </details>
