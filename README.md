@@ -6,9 +6,18 @@
 
 - https://github.com/kodekloudhub/certified-kubernetes-security-specialist-cks-course/tree/main/docs/08-Mock-Exams
 
+
+## Labs Practice
+
+- KodeKloud Mock Exams
+- ACloudGuru Labs
+
+
+
 ## CKS KodeKloud Mock Exam solution video
 
-- https://www.youtube.com/watch?v=7eH7vfT0axA&list=PLglXbBWxN2H9-ATq0ShHVlMWskhRgvdJz 
+- https://www.youtube.com/watch?v=7eH7vfT0axA&list=PLglXbBWxN2H9-ATq0ShHVlMWskhRgvdJz
+
 
 ## Useful Bookmarks 
 
