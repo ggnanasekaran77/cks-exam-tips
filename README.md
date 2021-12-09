@@ -98,9 +98,9 @@ vim /etc/kubernetes/manifests/kube-apiserver.yaml
 
 ### etcd
 ```bash
-vim /etc/kubernetes/manifests/kube-apiserver.yaml
-- --authorization-mode=Node,RBAC
-- --profiling=false
+mv /etc/kubernetes/manifests/etcd.yaml /etc/kubernetes/
+vim /etc/kubernetes/etcd.yaml
+- --client-cert-auth=true
 ```
 
 </p>
@@ -164,6 +164,7 @@ users:
 ### kube-apiserver
 ```bash
 vim /etc/kubernetes/manifests/kube-apiserver.yaml
+- --admission-control-config-file=/etc/kubernetes/admission-control/admission-control.conf
 - --enable-admission-plugins=NodeRestriction,ImagePolicyWebhook
 ```
 
