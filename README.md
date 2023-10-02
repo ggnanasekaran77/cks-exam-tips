@@ -35,7 +35,7 @@ RBAC -- https://kubernetes.io/docs/reference/access-authn-authz/rbac/
 
 Seccomp -- https://kubernetes.io/docs/tutorials/clusters/seccomp/
 
-Apparmor -- https://kubernetes.io/docs/tutorials/clusters/apparmor/
+AppArmor -- https://kubernetes.io/docs/tutorials/clusters/apparmor/
 
 ImageWebhookPolicy -- https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
 
@@ -45,7 +45,7 @@ PodSecurityPolicy -- https://kubernetes.io/docs/concepts/policy/pod-security-pol
 
 Kubelet Config -- https://kubernetes.io/docs/reference/config-api/kubelet-config.v1beta1/
 
-RuntimeClaas -- https://kubernetes.io/docs/concepts/containers/runtime-class/
+Runtime Class -- https://kubernetes.io/docs/concepts/containers/runtime-class/
 
 Admission Controllers -- https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#podsecuritypolicy
 
